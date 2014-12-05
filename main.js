@@ -29,6 +29,6 @@ chatDataStore.on("push",function(data){
 
 function addText(text){
   var msgDom = document.createElement("li");
-  msgDom.innerHTML = text.uname+":"+text.contnet;
+   msgDom.innerHTML = text.uname+":"+text.content;
   board.insertBefore(msgDom, board.firstChild);
 }
