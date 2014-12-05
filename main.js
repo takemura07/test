@@ -28,6 +28,6 @@ chatDataStore.on("push",function(data){
 
 function addText(text){
   var msgDom = document.createElement("li");
-  msgDom.innerHTML = text.uname+":"+text.content;
+  msgDom.innerHTML = text.uname+":"+text.contnet;
   board.insertBefore(msgDom, board.firstChild);
 }
