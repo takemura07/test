@@ -8,7 +8,7 @@ var textArea, board,textName;
 window.onload = function(){
   textArea = document.getElementById("msg");
   board = document.getElementById("board");
-   textName = document.getElementById("txtName");  
+  textName = document.getElementById("txtName");  
 }
 
 function clickEvent(){
