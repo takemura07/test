@@ -1,4 +1,3 @@
-
 var milkcocoa = new MilkCocoa("https://io-pi3159ro9.mlkcca.com");
 /* your-app-id にアプリ作成時に発行される"io-"から始まるapp-idを記入します */
 var chatDataStore = milkcocoa.dataStore("chat");
